@@ -1,6 +1,6 @@
 # Wsocket.io Server
 
-This is a server-side wrapper for the ws NPM module. It makes it a lot easier to use WebSockets with Node JS by providing a simple to use API. Take a look at [https://github.com/danielkov/wsocket.io-client](wsocket.io-client) or [https://github.com/danielkov/wsocket.io](wsocket.io) for a full integration example.
+This is a server-side wrapper for the ws NPM module. It makes it a lot easier to use WebSockets with Node JS by providing a simple to use API. Take a look at [wsocket.io-client](https://github.com/danielkov/wsocket.io-client) or [wsocket.io](https://github.com/danielkov/wsocket.io) for a full integration example.
 
 ## Supported methods
 
