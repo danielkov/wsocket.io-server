@@ -1,0 +1,25 @@
+{
+  "name": "wsocket.io-server",
+  "version": "1.0.0",
+  "description": "Server-side wrapper for ws for easy integration with wsocket.io client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkov/wsocket.io-server.git"
+  },
+  "keywords": [
+    "ws",
+    "websocket",
+    "io",
+    "server"
+  ],
+  "author": "Daniel Kovacs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielkov/wsocket.io-server/issues"
+  },
+  "homepage": "https://github.com/danielkov/wsocket.io-server#readme"
+}
