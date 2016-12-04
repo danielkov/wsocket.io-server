@@ -1,6 +1,6 @@
 {
   "name": "wsocket.io-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Server-side wrapper for ws for easy integration with wsocket.io client.",
   "main": "index.js",
   "scripts": {
