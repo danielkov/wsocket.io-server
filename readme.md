@@ -161,3 +161,24 @@ wss.connect( ws => {
 ```
 
 This method returns `this`, for easy chaining.
+
+### Extending the Constructor class
+Because both the server, the socket and the client are just ES6 classes, all ES6 features also work on them by standard. For example you could do something like this:
+
+```js
+const Server = require('wsocket.io-server');
+
+// This is the minimum requirement for extending the class.
+class InsaneServer extends Server {
+  constructor () {
+    super({port:4200});
+  }
+}
+
+let iwss = new InsaneServer();
+
+iwss.connect( ws => {
+  iwss.send('awesome-message', {message: 'This was sent by the Insane Server.'})
+})
+
+```
